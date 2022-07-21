@@ -16,5 +16,5 @@ option = st.sidebar.selectbox(
 
 # read data into a DataFrame
 import pandas as pd
-data = pd.read_csv('student_mat.csv', sep=';')
+data = pd.read_csv('API.csv', sep=';')
 data.head()
