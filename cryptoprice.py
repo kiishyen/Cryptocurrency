@@ -13,9 +13,8 @@ st.image('https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/cryptocur
 option = st.sidebar.selectbox(
     'Select Cryptocurrency',
      ['Bitcoin', 'Ethereum', 'BNB', 'Solana', 'Wrapped Bitcoin'])
-if option=='Bitcoin':
-  df = pd.DataFrame('Price in USD'(1,866,276),0)
-                    
 
-# Display a static table
-st.dataframe(df)
+# read data into a DataFrame
+import pandas as pd
+data = pd.read_csv('student_mat.csv', sep=';')
+data.head()
