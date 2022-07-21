@@ -24,17 +24,17 @@ elif option=='Ethereum':
   st.write('Market Cap(USD) = 12,875,584,996,925.90')
     
     elif option=='Solana':
-        st.header('Solana, SOL')
+  st.header('Solana, SOL')
   st.write('Price(USD) = 2,396')
   st.write('Market Cap(USD) = 13,537,594,562')
     
     elif option=='BNB':
-        st.header('Binance, BNB')
+  st.header('Binance, BNB')
   st.write('Price(USD) = 17,867')
   st.write('Market Cap(USD) = 46,801,210,081')
     
     else option=='Wrapped Bitcoin':
-        st.header('Wrapped Bitcoin, WBTC')
+  st.header('Wrapped Bitcoin, WBTC')
   st.write('Price(USD) = 1,864,354')
   st.write('Market Cap(USD) = 8,241,528,653')
         
