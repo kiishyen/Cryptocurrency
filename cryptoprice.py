@@ -33,7 +33,7 @@ elif option=='BNB':
   st.write('Price(USD) = 17,867')
   st.write('Market Cap(USD) = 46,801,210,081')
     
-else option=='Wrapped Bitcoin':
+elif option=='Wrapped Bitcoin':
   st.header('Wrapped Bitcoin, WBTC')
   st.write('Price(USD) = 1,864,354')
   st.write('Market Cap(USD) = 8,241,528,653')
