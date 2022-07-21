@@ -19,7 +19,7 @@ if option=='Bitcoin':
   st.write('Market Cap(USD) = 35,577,749,997,460.60')
 
 elif option=='Ethereum':
-    st.header('Ethereum, ETH')
+  st.header('Ethereum, ETH')
   st.write('Price(USD) = 106,307')
   st.write('Market Cap(USD) = 12,875,584,996,925.90')
     
